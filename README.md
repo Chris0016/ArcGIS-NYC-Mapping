@@ -1,10 +1,26 @@
 
-# ArcGIS Project
+# Understanding how poverty influences Socioeconomic Statuses through ArcGIS
 
 
-## Topic
+## Background:
 
-Is there a correlation between crime rate, race, and poverty and how strong is that correlation? We expect there to be correlation, but the goal of this project is not to showcase such relation, but rather try to understand the relationship between these variables and remove misconceptions. 
+The debate of nature vs nuture tries to decide on which of these have the greatest impact on a person's outcome. I believe that the environment plays the larger role. To prove this we'll aim to understand how poverty affects people in a variety of areas including crime rate, education, and infrastructure and what it's correlation is to gender and race. 
+
+
+## Project Goals:
+
+The ultimate goal of this project is to shed light using real world data on how impactful our surroundings can be on us and the perpetual cycle it can create for the next generations. More importantly, the basis behind is to project is to reduce racial biasses and stereotypes by providing a better picture of the entire story. Moreover, a goal with this project is not just to create a report, but rather a an online visual guidance that can be used and viewed by people across the internet. 
+
+
+## Required Data Sources:
+
+The focus of this project will be on NYC. Therefore the majority of data sources will come from NYC Open Data. The data selected will relate to social and economic data variables.
+
+
+## Proposed methodological Approach: 
+
+Using chloropleth and graduated density maps to visualize the levels of crime, poverty, and race. Furthermore some analysis of the data will be done through bar charts, and correlational statistics as indicators to the goal of the project. 
+
 
 ## DataSets:
 
@@ -33,9 +49,3 @@ geospatial data on new york city boroughs
 ### 2005-2018 NYC Poverty rate full report
 - https://www1.nyc.gov/assets/opportunity/pdf/20_poverty_measure_report.pdf
 
-
-
-
-## Data Link Setup:
-
-To import files into project the must be from a URL so this project is set up using git pages. The inidividual files are setup by uploading them into the project and using their URL. 
