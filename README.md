@@ -1,4 +1,10 @@
 
+# ArcGIS Project
+
+
+## Topic
+
+Is there a correlation between crime rate, race, and poverty and how strong is that correlation? We expect there to be correlation, but the goal of this project is not to showcase such relation, but rather try to understand the relationship between these variables and remove misconceptions. 
 
 ## DataSets:
 
@@ -16,3 +22,13 @@ https://data.cityofnewyork.us/Public-Safety/Citywide-Crime-Statistics/c5dk-m6ea
 
 
 https://www1.nyc.gov/site/planning/data-maps/nyc-population/demo-tables-2000.page
+
+
+geospatial data on new york city boroughs
+
+
+## Other Resources:
+
+
+### 2005-2018 NYC Poverty rate full report
+- https://www1.nyc.gov/assets/opportunity/pdf/20_poverty_measure_report.pdf
