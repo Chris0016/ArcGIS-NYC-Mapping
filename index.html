@@ -1,5 +1,3 @@
-<!-- Initial Test for Data link setup -->
-
 <html>
   <head>
     <meta charset="utf-8" />
@@ -16,31 +14,33 @@
         width: 100%;
       }
     </style>
-<link rel="stylesheet" href="https://js.arcgis.com/4.24/esri/themes/light/main.css">
+    <link rel="stylesheet" href="https://js.arcgis.com/4.24/esri/themes/light/main.css">
     <script src="https://js.arcgis.com/4.24/"></script>
-<script>
+    <script>
 
-      require(["esri/config","esri/Map", "esri/views/MapView","esri/layers/FeatureLayer" , ], function (esriConfig,Map, MapView,FeatureLayer ) {
-	 esriConfig.apiKey = "";
-      const NYC_LAT = 40.730610
-      const NYC_LON = -73.935242
+      require(["esri/config","esri/Map", "esri/views/MapView","esri/layers/FeatureLayer" , "esri/layers/GeoJSONLayer" ], function (esriConfig,Map, MapView,FeatureLayer , GeoJSONLayer) {
 
-   const map = new Map({
-          basemap: "arcgis-navigation" // Basemap layer service
-        });
+        esriConfig.apiKey = "";
+            const NYC_LAT = 40.730610
+            const NYC_LON = -73.935242
+
+        const map = new Map({
+                basemap: "arcgis-navigation" // Basemap layer service
+              });
 
         const view = new MapView({
           map: map,
           center: [ NYC_LON, NYC_LAT], // Longitude, latitude
-          zoom: 10, // Zoom level
+          zoom: 9, // Zoom level
           container: "viewDiv" // Div element
         });
 
-        // const geojsonLayer = new GeoJSONLayer({
-        //   url: "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson"
-        // });
+      const nycBoroughLayer = new GeoJSONLayer({
+        url: "https://chris0016.github.io/ArcGIS-NYC-Mapping/data/Borough%20Boundaries.geojson"
+      });
 
-        map.add(nycBoroughsLayer, 0)
+      map.add(nycBoroughLayer)
+      
       });
     </script>
 
