@@ -20,7 +20,7 @@
 
       require(["esri/config","esri/Map", "esri/views/MapView","esri/layers/FeatureLayer" , "esri/layers/GeoJSONLayer" ], function (esriConfig,Map, MapView,FeatureLayer , GeoJSONLayer) {
 
-        esriConfig.apiKey = "";
+        esriConfig.apiKey = "AAPKfce3e706fda741cd8d75bc1f057b912cNu4PMTvgu5Yyjwg-BsHgCZJA6pPfrlwb6XOUX8v9DVTE-6ovMQFhWA8s2MHSY0S6";
             const NYC_LAT = 40.730610
             const NYC_LON = -73.935242
 
@@ -36,11 +36,18 @@
         });
 
       const nycBoroughLayer = new GeoJSONLayer({
-        url: "https://chris0016.github.io/ArcGIS-NYC-Mapping/data/Borough%20Boundaries.geojson"
-      });
+         url: "https://chris0016.github.io/ArcGIS-NYC-Mapping/data/Borough%20Boundaries.geojson"
+             });
 
-      map.add(nycBoroughLayer)
+
+const nycDistrictLayers = new GeoJSONLayer({
+  url: "https://services5.arcgis.com/GfwWNkhOj9bNBqoJ/arcgis/rest/services/nyzd/FeatureServer/0/query?where=1=1&outFields=*&outSR=4326&f=pgeojson"
+
+})
       
+
+      //map.add(nycBoroughLayer, 0)
+      map.add(nycDistrictLayers)    
       });
     </script>
 

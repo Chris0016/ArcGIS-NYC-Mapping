@@ -39,9 +39,12 @@ https://data.cityofnewyork.us/Public-Safety/Citywide-Crime-Statistics/c5dk-m6ea
 
 https://www1.nyc.gov/site/planning/data-maps/nyc-population/demo-tables-2000.page
 
+NYC Zoning GeoData:
+https://www1.nyc.gov/site/planning/data-maps/open-data/dwn-gis-zoning.page
 
-geospatial data on new york city boroughs
 
+
+https://www.census.gov/newsroom/press-kits/2018/acs-5year.html
 
 ## Other Resources:
 
