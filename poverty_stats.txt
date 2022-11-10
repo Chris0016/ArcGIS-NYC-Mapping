@@ -1,0 +1,55 @@
+Name: Bronx
+Code: 1
+Population: 9806
+Porverty Rate: 0.24138282684070977
+Male Percentage: 0.45105037732000813
+Female Percentage: 0.5489496226799918
+White percentage: 0.12900265143789516
+Black percentage: 0.26504181113603914
+Asian percentage: 0.05568019579849072
+Hispanic percentage: 0.5304915357944116
+Other percentage: 0.01978380583316337
+Name: Brooklyn
+Code: 2
+Population: 24184
+Porverty Rate: 0.15191862388355937
+Male Percentage: 0.4676645716175984
+Female Percentage: 0.5323354283824016
+White percentage: 0.42747270922924246
+Black percentage: 0.24044823023486603
+Asian percentage: 0.1477836586172676
+Hispanic percentage: 0.15216672179953689
+Other percentage: 0.032128680119087
+Name: Manhattan
+Code: 3
+Population: 9065
+Porverty Rate: 0.13127413127413126
+Male Percentage: 0.4675124103695532
+Female Percentage: 0.5324875896304467
+White percentage: 0.5075565361279647
+Black percentage: 0.10854936569222283
+Asian percentage: 0.13281853281853281
+Hispanic percentage: 0.21853281853281853
+Other percentage: 0.03254274682846112
+Name: Queens
+Code: 4
+Population: 21198
+Porverty Rate: 0.09656571374657986
+Male Percentage: 0.4757996037362015
+Female Percentage: 0.5242003962637984
+White percentage: 0.2801679403717332
+Black percentage: 0.16058118690442494
+Asian percentage: 0.27611095386357204
+Hispanic percentage: 0.2359656571374658
+Other percentage: 0.04717426172280404
+Name: Staten Island
+Code: 5
+Population: 4020
+Porverty Rate: 0.09850746268656717
+Male Percentage: 0.4781094527363184
+Female Percentage: 0.5218905472636816
+White percentage: 0.6412935323383084
+Black percentage: 0.08258706467661692
+Asian percentage: 0.11492537313432835
+Hispanic percentage: 0.1407960199004975
+Other percentage: 0.020398009950248756
