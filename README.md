@@ -52,3 +52,24 @@ https://www.census.gov/newsroom/press-kits/2018/acs-5year.html
 ### 2005-2018 NYC Poverty rate full report
 - https://www1.nyc.gov/assets/opportunity/pdf/20_poverty_measure_report.pdf
 
+
+
+## Europe
+
+
+### Shape file
+
+https://www.efrainmaps.es/english-version/free-downloads/europe/
+
+### Poverty Data
+
+https://ec.europa.eu/eurostat/web/income-and-living-conditions/data/database?node_code=ilc
+
+
+
+### Crime Data
+
+https://ec.europa.eu/eurostat/databrowser/view/crim_off_cat/default/table?lang=en
+https://ec.europa.eu/eurostat/web/crime/data/database
+
+
