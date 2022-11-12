@@ -24,6 +24,8 @@ Using chloropleth and graduated density maps to visualize the levels of crime, p
 
 ## DataSets:
 
+https://compstat.nypdonline.org/2e5c3f4b-85c1-4635-83c6-22b27fe7c75c/view/89
+
 https://www1.nyc.gov/site/opportunity/poverty-in-nyc/poverty-data.page
 
 
@@ -65,11 +67,13 @@ https://www.efrainmaps.es/english-version/free-downloads/europe/
 
 https://ec.europa.eu/eurostat/web/income-and-living-conditions/data/database?node_code=ilc
 
-
+https://ec.europa.eu/eurostat/web/income-and-living-conditions/data/database
 
 ### Crime Data
 
 https://ec.europa.eu/eurostat/databrowser/view/crim_off_cat/default/table?lang=en
+https://ec.europa.eu/eurostat/web/crime/data/database
+
 https://ec.europa.eu/eurostat/web/crime/data/database
 
 
